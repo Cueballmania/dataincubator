@@ -1,13 +1,13 @@
 # This program solves the knight on a dial pad problem
 # via monte-carlo simulations.
-# The recusion depth is limited, so that must be adjusted.
+# The recursion depth is limited, so that must be adjusted.
 import sys, numpy
 
 # Set recursion depth to solve the problem of 1024 moves.
 sys.setrecursionlimit(2048)
 
 # Number of Monte Carlo simulations -- set high in an attempt to converge
-numtrials = 9999999
+numtrials = 99999999
 nummoves = 0
 sum = 0
 count = 0
@@ -197,7 +197,7 @@ def main():
     
     return
 
-# Function that controls the starting and ending of the recurrsion
+# Function that controls the starting and ending of the recursion
 def start_monte(a, b):
     global sum
     global count

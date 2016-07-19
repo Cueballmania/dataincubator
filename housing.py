@@ -18,7 +18,7 @@ print("The fraction of the most common class is: ", a[0]/len(df))
 #   1. take only the non-zero improvement values
 #   2. Sort by date
 #   3. Remove old entries for duplicated property listed
-b = df[df['Closed Roll Assessed Improvement Value']>0].sort('Current Sales Date',ascending=False).groupby('Block and Lot Number').head(1)
+b = df[df['Closed Roll Assessed Improvement Value']>0].sort_values(by='Current Sales Date',ascending=False).groupby('Block and Lot Number').head(1)
 
 #   4. Find the average
 

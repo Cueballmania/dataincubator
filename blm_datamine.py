@@ -8,10 +8,10 @@ import pandas, time
 import numpy
 
 # Twitter keys
-CONSUMER_KEY = 'szzIqYXh0j4KsYiLcBfltVSEx'
-CONSUMER_SECRET = 'yO3h76bky5fKxfFUI4zb0KEejxEEVDrKaBmOMsd0rM3HbhcKzk'
-OAUTH_TOKEN = '18917349-kkp3XQ4uszMObYURy2AVrsVDf06KR6fZOgRdALpEF'
-OAUTH_TOKEN_SECRET = 'jlZvzVsTsYdigqVY7lGNlnDjDoBqOEGzr2quuStbMmhAF'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+OAUTH_TOKEN = ''
+OAUTH_TOKEN_SECRET = ''
 
 # Connect to the Twiter API
 twitter_api = Twython(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
